@@ -1,0 +1,39 @@
+.nav-three .nav-menu a:hover {
+	color: blue;
+}
+.nav-three {
+	background-color: #eee;
+	padding: 1rem 0; 
+}
+.nav-three .nav-logo,
+.nav-three .nav-menu a {
+	display: block;
+	text-align: center;
+	padding: 0.7rem 1.5rem;
+}
+@media (min-width: 769px) {
+	.nav-three {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 0;
+	}
+	.nav-three .nav-menu {
+		display: flex;
+		justify-content: center;
+	}
+	.nav-three .nav-logo {
+		text-align: left;
+		flex: 1 1 25%;
+		justify-content: flex-start;
+	}
+	.nav-three .nav-menu.middle {
+		flex: 1 1 50%;
+		text-align: center;
+		justify-content: center;
+	}
+	.nav-three .nav-menu.right {
+		flex: 1 1 25%;
+		justify-content: flex-end;
+	}
+}

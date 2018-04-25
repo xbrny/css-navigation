@@ -1,0 +1,19 @@
+.nav-six .nav-menu a:hover {
+	color: blue;
+}
+.nav-six {
+	background-color: #eee;
+	padding: 1rem 0; 
+}
+.nav-six .nav-logo,
+.nav-six .nav-menu a {
+	display: block;
+	text-align: center;
+	padding: 0.7rem 1.5rem;
+}
+@media (min-width: 769px) {
+	.nav-six .nav-menu {
+		display: flex;
+		justify-content: center;
+	}
+}

@@ -1,0 +1,43 @@
+.nav-five .nav-menu a:hover {
+	color: blue;
+}
+.nav-five {
+	background-color: #eee;
+	padding: 1rem 0; 
+}
+.nav-five .nav-logo,
+.nav-five .nav-menu a {
+	display: block;
+	text-align: center;
+	padding: 0.7rem 1.5rem;
+}
+@media (min-width: 769px) {
+	.nav-five {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 0;
+	}
+	.nav-five .nav-menu {
+		display: flex;
+		justify-content: center;
+	}
+	.nav-five .left {
+		flex: 1 1 40%;
+		text-align: right;
+		justify-content: flex-end;
+		order: 1;
+	}
+	.nav-five .middle {
+		flex: 1 1 auto;
+		text-align: center;
+		justify-content: center;
+		order: 2;
+	}
+	.nav-five .right {
+		flex: 1 1 40%;
+		text-align: left;
+		justify-content: flex-start;
+		order: 3;
+	}
+}

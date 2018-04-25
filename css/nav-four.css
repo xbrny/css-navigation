@@ -1,0 +1,59 @@
+.nav-four .nav-menu a:hover {
+	color: blue;
+}
+.nav-four {
+	background-color: #eee;
+	padding: 1rem 0; 
+}
+.nav-four .nav-logo,
+.nav-four .nav-menu a {
+	display: block;
+	text-align: center;
+	padding: 0.7rem 1.5rem;
+}
+@media (min-width: 769px) {
+	.nav-four {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 0;
+	}
+	.nav-four .nav-menu {
+		display: flex;
+		justify-content: center;
+	}
+	.nav-four .left {
+		flex: 1 1 40%;
+		order: 2;
+		text-align: center;
+		justify-content: center;
+	}
+	.nav-four .middle {
+		flex: 1 1 auto;
+		order: 1;
+		text-align: left;
+		justify-content: flex-start;
+	}
+	.nav-four .right {
+		flex: 1 1 40%;
+		order: 3;
+		justify-content: flex-end;
+	}
+}
+@media (min-width: 1025px) {
+	.nav-four .left {
+		text-align: left;
+		justify-content: flex-start;
+		order: 1;
+	}
+	.nav-four .middle {
+		text-align: center;
+		justify-content: center;
+		order: 2;
+	}
+	.nav-four .right {
+		text-align: right;
+		justify-content: flex-end;
+		order: 3;
+	}
+}

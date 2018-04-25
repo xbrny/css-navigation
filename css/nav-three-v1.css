@@ -1,0 +1,49 @@
+.nav-three-v1 .nav-menu a:hover {
+	color: #333;
+	background-color: #fff;
+}
+.nav-three-v1 {
+	background-color: #eee;
+}
+.nav-three-v1 .nav-logo,
+.nav-three-v1 .nav-menu a {
+	display: block;
+	text-align: center;
+	padding: 1rem;
+}
+@media (min-width: 769px) {
+	.nav-three-v1 {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 0;
+	}
+	.nav-three-v1 .nav-menu {
+		display: flex;
+		justify-content: center;
+	}
+	.nav-three-v1 .nav-logo {
+		padding: 0 2rem;
+	}
+	.nav-three-v1 .nav-menu a {
+		padding: 2rem;
+		border-left: 1px solid #fff;
+	}
+	.nav-three-v1 .nav-menu:not(:last-of-type) li:last-of-type a {
+		border-right: 1px solid #fff;
+	}
+	.nav-three-v1 .nav-logo {
+		text-align: left;
+		flex: 1 1 25%;
+		justify-content: flex-start;
+	}
+	.nav-three-v1 .nav-menu.middle {
+		flex: 1 1 50%;
+		text-align: center;
+		justify-content: center;
+	}
+	.nav-three-v1 .nav-menu.right {
+		flex: 1 1 25%;
+		justify-content: flex-end;
+	}
+}

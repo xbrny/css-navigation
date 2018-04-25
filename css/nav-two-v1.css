@@ -1,0 +1,39 @@
+.nav-two-v1 .nav-menu a:hover {
+	color: #333;
+	background-color: #fff;
+}
+.nav-two-v1 {
+	background-color: #eee;
+}
+.nav-two-v1 .nav-logo,
+.nav-two-v1 .nav-menu a {
+	display: block;
+	text-align: center;
+	line-height: 1;
+	padding: 1rem;
+}
+@media (min-width: 769px) {
+	.nav-two-v1 {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 0;
+	}
+	.nav-two-v1 .nav-logo {
+		padding: 0 2rem;
+	}
+	.nav-two-v1 .nav-menu {
+		display: flex;
+	}
+	.nav-two-v1 .nav-menu a {
+		padding: 2rem;
+		border-left: 1px solid #fff;
+	}
+	}
+	.nav-two-v1 .nav-menu:not(:last-of-type) li:last-of-type a {
+		border-right: 1px solid #fff;
+	}
+	.nav-two-v1 .nav-menu.left {
+		margin-right: auto;
+	}
+}

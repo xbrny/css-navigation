@@ -1,0 +1,27 @@
+.nav-two .nav-menu a:hover {
+	color: blue;
+}
+.nav-two {
+	background-color: #eee;
+	padding: 1rem 0; 
+}
+.nav-two .nav-logo,
+.nav-two .nav-menu a {
+	display: block;
+	text-align: center;
+	padding: 0.7rem 1.5rem;
+}
+@media (min-width: 769px) {
+	.nav-two {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 0;
+	}
+	.nav-two .nav-menu {
+		display: flex;
+	}
+	.nav-two .nav-menu.left {
+		margin-right: auto;
+	}
+}
